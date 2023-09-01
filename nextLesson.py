@@ -39,5 +39,5 @@ else:
             lessonsEnded = False
     if currentlyALessonFlag:
         webbrowser.open(nextLessonURL)
-    else if not lessonsEnded:
+    elif not lessonsEnded:
         messagebox.showinfo("Помилка", "Урок ще не почався")
