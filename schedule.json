@@ -30,5 +30,100 @@
                 "parity":0
             }
         ]
+    },
+    {
+        "day":1,
+        "lessons":
+        [
+            {
+                "start":"12:20",
+                "end"  :"13:55",
+                "name" :"ПРАКТИКА: Рівняння математичної фізики Вакал Є.С.",
+                "URL"  :"https://us04web.zoom.us/j/3296753216?pwd=UVhUM2tGS0tPcWJwMDB1TnZNb0FMZz09"
+            }
+        ]
+    },
+    {
+        "day":2,
+        "lessons":
+        [
+            {
+                "start":"08:40",
+                "end"  :"10:15",
+                "name" :"ЛЕКЦІЯ: Історія математики. Циганівська І.М.",
+                "URL"  :"https://us04web.zoom.us/j/73900700933?pwd=Lj9bITpF6twKFNJXunOXU6eF3RVbbs.1"
+            },
+            {
+                "start":"10:35",
+                "end"  :"12:10",
+                "name" :"ЛЕКЦІЯ: Рівняння математичної фізики Вакал Є.С.",
+                "URL"  :"https://us04web.zoom.us/j/3296753216?pwd=UVhUM2tGS0tPcWJwMDB1TnZNb0FMZz09"
+            },
+            {
+                "start":"12:20",
+                "end"  :"13:55",
+                "name" :"ЛЕКЦІЯ: Варіаційне числення та методи оптимізації. Ловейкін Ю.В.",
+                "URL"  :"https://us02web.zoom.us/j/88085696329"
+            },
+            {
+                "start":"14:05",
+                "end"  :"15:35",
+                "name" :"ЛЕКЦІЯ: Рівняння математичної фізики Вакал Є.С.",
+                "URL"  :"https://us04web.zoom.us/j/3296753216?pwd=UVhUM2tGS0tPcWJwMDB1TnZNb0FMZz09"
+            }
+        ]
+    },
+    {
+        "day":3,
+        "lessons":
+        [
+            {
+                "start":"10:35",
+                "end"  :"12:10",
+                "name" :"ЛЕКЦІЯ: Алгебраїчні основи криптографії Петравчук А.П.",
+                "URL"  :"https://us04web.zoom.us/j/4736065321?pwd=QU5abThTNzR5YzJweW1mSkNqd0hGdz09"
+            }
+        ]
+    },
+    {
+        "day":4,
+        "lessons":
+        [
+            {
+                "start":"08:40",
+                "end"  :"10:15",
+                "name" :"ЛЕКЦІЯ: Рівняння математичної фізики Вакал Є.С.",
+                "URL"  :"https://us04web.zoom.us/j/3296753216?pwd=UVhUM2tGS0tPcWJwMDB1TnZNb0FMZz09",
+                "parity":1
+            },
+            {
+                "start":"08:40",
+                "end"  :"10:15",
+                "name" :"Іноземна мова консультація",
+                "URL"  :"https://us05web.zoom.us/j/95198897959?pwd=c1dQTFBFQ0pRb1RtMmhDaHVFdm1xUT09",
+                "parity":0
+            },
+            {
+                "start":"10:35",
+                "end"  :"12:10",
+                "name" :"ПРАКТИКА: Рівняння математичної фізики Вакал Є.С.",
+                "URL"  :"https://us04web.zoom.us/j/3296753216?pwd=UVhUM2tGS0tPcWJwMDB1TnZNb0FMZz09",
+                "parity":1
+            },
+            {
+                "start":"10:35",
+                "end"  :"12:10",
+                "name" :"ЛЕКЦІЯ: Історія математики. Циганівська І.М.",
+                "URL"  :"https://us04web.zoom.us/j/73900700933?pwd=Lj9bITpF6twKFNJXunOXU6eF3RVbbs.1",
+                "parity":0
+            },
+            {
+                "start":"12:20",
+                "end"  :"13:55",
+                "name" :"ПРАКТИКА: Теорія операторів на інтегральні рівняння. Брайман В.Б.",
+                "URL"  :"https://us02web.zoom.us/j/8434289474?pwd=M1IrcnpQS0pPdWd3dmhQS2JVc3IyUT09",
+                "parity":1
+            }
+        ]
     }
 ]
