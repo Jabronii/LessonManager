@@ -19,4 +19,3 @@ currentWeekDay = diff.days%7-1
 
 #get current time
 currentTime = time(datetime.now().hour, datetime.now().minute)
-currentTime = time(7)

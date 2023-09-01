@@ -2,6 +2,7 @@ import webbrowser
 from tkinter import messagebox
 from main import *
 
+currentTime = time(7)
 messageText = None
 flag = True
 todaysData = None
@@ -19,7 +20,7 @@ else:
     nextLessonName = None
     nextLessonURL = None
     for lesson in todaysData:
-        if "parity" in lesson.keys() and not(int(lesson["keys"])==currentWeekParity):
+        if "parity" in lesson.keys() and not(int(lesson["parity"])==currentWeekParity):
             continue
         startTimeText = lesson["start"]
         endTimeText = lesson["end"]
@@ -40,4 +41,6 @@ else:
     if currentlyALessonFlag:
         webbrowser.open(nextLessonURL)
     elif not lessonsEnded:
-        messagebox.showinfo("Помилка", "Урок ще не почався")
+        messagebox.showinfo("Урок ще не почався", "Наступний урок: \n"+nextLessonName+"\n До початку "+str(time(closestStartTime.hour-currentTime.hour, closestStartTime.minute-currentTime.minute)))
+    elif lessonsEnded:
+        messagebox.showinfo("Пари закінчилися", "На сьогодні пари закінчилися")
