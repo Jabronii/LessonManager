@@ -2,7 +2,7 @@ import webbrowser
 from tkinter import messagebox
 from main import *
 
-currentTime = time(7)
+#currentTime = time(19)
 messageText = None
 flag = True
 todaysData = None
