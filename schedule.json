@@ -28,6 +28,12 @@
                 "name" :"ПРАКТИКА: Варіаційне числення та методи оптимізації. Ловейкін Ю.В.",
                 "URL"  :"https://join.skype.com/DhzvklRbEueX",
                 "parity":0
+            },
+            {
+                "start":"18:00",
+                "end"  :"19:15",
+                "name" :"ЛЕКЦІЯ: High-dimensional probability for data science. Roman Vershynin",
+                "URL"  :"https://uci.zoom.us/j/98425478040"
             }
         ]
     },
@@ -70,6 +76,12 @@
                 "end"  :"15:35",
                 "name" :"ЛЕКЦІЯ: Рівняння математичної фізики Вакал Є.С.",
                 "URL"  :"https://us04web.zoom.us/j/3296753216?pwd=UVhUM2tGS0tPcWJwMDB1TnZNb0FMZz09"
+            },
+            {
+                "start":"18:00",
+                "end"  :"19:15",
+                "name" :"ЛЕКЦІЯ: High-dimensional probability for data science. Roman Vershynin",
+                "URL"  :"https://uci.zoom.us/j/98425478040"
             }
         ]
     },
@@ -123,6 +135,12 @@
                 "name" :"ПРАКТИКА: Теорія операторів на інтегральні рівняння. Брайман В.Б.",
                 "URL"  :"https://us02web.zoom.us/j/8434289474?pwd=M1IrcnpQS0pPdWd3dmhQS2JVc3IyUT09",
                 "parity":1
+            },
+            {
+                "start":"14:30",
+                "end"  :"15:30",
+                "name" :"КОНСУЛЬТАЦІЯ: High-dimensional probability for data science. Oksana Chernova",
+                "URL"  :"https://knu-ua.zoom.us/j/83707457901"
             }
         ]
     }
