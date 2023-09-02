@@ -23,4 +23,3 @@ if todaysData == None:
     messagebox.showinfo("", "Сьогодні немає пар")
 else:
     messagebox.showinfo("Розклад", messageText)
-#text
