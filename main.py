@@ -8,7 +8,6 @@ data = json.load(f)
 #get current date
 weekCountStart = date(2023,9,3)
 currentDate = date(datetime.now().year, datetime.now().month, datetime.now().day)
-currentDate = date(2023, 9, 15)
 diff = currentDate-weekCountStart
 
 #0 is even, 1 is odd
