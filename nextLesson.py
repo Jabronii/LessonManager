@@ -32,7 +32,7 @@ else:
             nextLessonName = name
             nextLessonURL = url
             break
-        if currentTime<startTime and startTime<closestStartTime:
+        if currentTime<=startTime and startTime<=closestStartTime:
             closestStartTime = startTime
             nextLessonName = name
             nextLessonURL = url
