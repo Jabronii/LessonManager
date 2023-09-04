@@ -37,9 +37,11 @@ else:
             nextLessonName = name
             nextLessonURL = url
             lessonsEnded = False
+    timeDiff = datetime(2000, 1,1,closestStartTime.hour, closestStartTime.minute) - datetime(2000, 1,1,currentTime.hour, currentTime.minute)
+    timeCont = datetime(2000,1,1,0,0)+timeDiff
     if currentlyALessonFlag:
         webbrowser.open(nextLessonURL)
     elif not lessonsEnded:
-        messagebox.showinfo("Урок ще не почався", "Наступний урок: \n"+nextLessonName+"\n До початку "+str(time(closestStartTime.hour-currentTime.hour, closestStartTime.minute-currentTime.minute)))
+        messagebox.showinfo("Урок ще не почався", "Наступний урок: \n"+nextLessonName+"\n До початку "+str(time(timeCont.hour, timeCont.minute)))
     elif lessonsEnded:
         messagebox.showinfo("Пари закінчилися", "На сьогодні пари закінчилися")
