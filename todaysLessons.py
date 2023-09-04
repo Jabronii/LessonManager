@@ -20,6 +20,6 @@ if not todaysData == None:
         messageText += startTimeText +" - "+ endTimeText +"\n"
         messageText += name + "\n\n"
 if todaysData == None:
-    messagebox.showinfo("", "Сьогодні немає пар")
+    messagebox.showwarning("", "Сьогодні немає пар")
 else:
     messagebox.showinfo("Розклад", messageText)

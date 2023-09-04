@@ -11,7 +11,7 @@ for dayData in data:
         todaysData = dayData["lessons"]
         break
 if flag:
-    messagebox.showerror("Помилка", "Сьогодні немає пар")
+    messagebox.showwarning("", "Сьогодні немає пар")
 else:
     closestStartTime = time(23,59,59)
     currentlyALessonFlag = False
