@@ -1,5 +1,5 @@
 import json
-from datetime import *
+from datetime import date, time, datetime
 
 #load json file
 f = open("schedule.json", encoding="utf-8")
